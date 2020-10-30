@@ -18,20 +18,16 @@ header{
 	
 }
 
-.link{
-	list-style-position: none;
-	margin: 0;
-	padding: 0;
-	colour: #6b7280; 
+header a{
+	color: #6b7280;
 }
 
-nav:hover{
+header a:hover{
 	color: #5A67D8; 
 }
 
 .overview-hero{
 	background-color: #E2E8F0; 
-
 }
 
 .card-body>h3{
@@ -46,16 +42,31 @@ nav:hover{
 	margin: 5%;
 	padding: 5%
 }
+.testing a{
+	background-color: #48BB78;
+	color: white;
+}
 
 
-.learn-about{
-	display: grid | inline-grid; 
+.learn-about h2{
+	 color: #48BB78;
+	 font-size: 24px;
+}
+
+.stories h2, a{
+	color: #5A67D8;
+}
+
+.stories h3{
+	font-size: 18px;
 }
 
 img{
 	width: 200x;
 	height: 150px;
 }
+
+
 
 footer{
 	background-color: #4A5568;
