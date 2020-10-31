@@ -16,9 +16,11 @@ header{
 	background-color: white;
 	font-size: 18px;
 }
-
 header a{
 	color: #6b7280;
+}
+header ul{
+	list-style-type: none;
 }
 
 header a:hover{
@@ -27,7 +29,7 @@ header a:hover{
 
 .overview-hero{
 	background-color: #E2E8F0; 
-	padding: 5%
+	padding: 3%
 }
 .overview-hero-image{
 	float: left;
@@ -44,7 +46,8 @@ header a:hover{
 .testing{
 	background-color: #4A5558; 
 	color: white; 
-	padding: 5%
+	padding: 5%;
+	display: grid;
 }
 .testing a{
 	background-color: #48BB78;
