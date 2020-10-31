@@ -15,11 +15,11 @@ body {
 header{
 	background-color: white;
 	font-size: 18px;
-	
 }
 
 header a{
 	color: #6b7280;
+	list-style-type: none;
 }
 
 header a:hover{
@@ -28,6 +28,10 @@ header a:hover{
 
 .overview-hero{
 	background-color: #E2E8F0; 
+	padding: 5%
+}
+.overview-hero-image{
+	float: left;
 }
 
 .card-body>h3{
@@ -45,6 +49,9 @@ header a:hover{
 .testing a{
 	background-color: #48BB78;
 	color: white;
+	border-radius: 5px;
+	padding:.9%;
+	text-decoration: none;
 }
 
 
@@ -55,17 +62,24 @@ header a:hover{
 
 .stories h2, a{
 	color: #5A67D8;
+	text-decoration: none;
 }
 
 .stories h3{
 	font-size: 18px;
 }
 
+.stories img{
+	border-radius: 50%;
+	float: left;
+	height: 158px;
+	width: 158px;
+}
+
 img{
 	width: 200x;
 	height: 150px;
 }
-
 
 
 footer{
