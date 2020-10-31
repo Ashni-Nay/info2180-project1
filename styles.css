@@ -19,7 +19,6 @@ header{
 
 header a{
 	color: #6b7280;
-	list-style-type: none;
 }
 
 header a:hover{
@@ -32,6 +31,7 @@ header a:hover{
 }
 .overview-hero-image{
 	float: left;
+	padding-right: 3%
 }
 
 .card-body>h3{
@@ -71,9 +71,10 @@ header a:hover{
 
 .stories img{
 	border-radius: 50%;
+	height: 156px;
+	width: 156px;
 	float: left;
-	height: 158px;
-	width: 158px;
+	padding: 0.92%
 }
 
 img{
