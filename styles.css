@@ -39,8 +39,7 @@ header a:hover{
 /*Changes for the h3 heading in learn-about section*/
 .card-body>h3{
 	color: #48BB78;
-	font-size: 21px;
-	border-color: #E2E8F0; 
+	font-size: 21px; 
 }
 
 .testing{
@@ -92,8 +91,21 @@ header a:hover{
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
 	border-radius: 5px;
+	color: white;
 }
 
+.cards{
+	display: grid; 
+	grid-column-gap: 50px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: .card-body;
+	
+}
+
+.card{
+	border-color: #E2E8F0;
+	border-radius: 5px;
+}
 img{
 	width: 200x;
 	height: 150px;
