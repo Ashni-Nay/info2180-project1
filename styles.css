@@ -34,6 +34,7 @@ header a:hover{
 	padding-right: 3%
 }
 
+/*Changes for the h3 heading in learn-about section*/
 .card-body>h3{
 	color: #48BB78;
 	font-size: 21px;
@@ -59,6 +60,7 @@ header a:hover{
 	 color: #48BB78;
 	 font-size: 24px;
 }
+
 
 .stories h2, a{
 	color: #5A67D8;
