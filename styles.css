@@ -14,6 +14,7 @@ body {
 header{
 	background-color: white;
 	font-size: 18px;
+	justify-content: space-between;
 }
 header a{
 	color: #6b7280;
@@ -24,6 +25,14 @@ header ul{
 	list-style-type: none;
 	justify-content: space-between;
 	align-items: center;
+}
+header .container{
+	display: flex;
+	justify-content: space-between;
+}
+li{
+	padding: 5px;
+	padding-top: 20px;
 }
 
 header a:hover{
@@ -90,12 +99,14 @@ header a:hover{
 }
 .newsletter button{
 	background-color: #5A67D8;
-	padding-left: 1%;
-	padding-right: 1%;
-	padding-top: 0.5%;
-	padding-bottom: 0.5%;
+	padding-right: 1.5%;
+	padding-left: 1.5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin: 10px;
 	border-radius: 5px;
 	color: white;
+	width: 10%;
 }
 
 .cards{
@@ -103,7 +114,6 @@ header a:hover{
 	grid-column-gap: 50px;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-areas: .card-body;
-	
 }
 
 .card{
@@ -115,12 +125,23 @@ header a:hover{
 	margin-bottom: 30px;
 }
 
+/*.form-group{
+	padding: 10px;
+	margin: 10px; */
+}
+form{
+	display: flex;
+	justify-content: right;
+	padding: 10px;
+	margin: 10px;
+	align-items: center;
+	width: 20%;
+}
 
 img{
 	width: 200px;
 	height: 150px;
 }
-
 
 footer{
 	background-color: #4A5568;
